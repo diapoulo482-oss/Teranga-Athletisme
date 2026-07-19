@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Téranga Athletic — Équipementier sportif</title>
+  <meta name="description" content="Téranga Athletic : ensembles, pantalons, chemises et crampons pour sportifs exigeants. Qualité, performance et style.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icônes (Font Awesome via CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Feuille de style principale -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barre de progression du scroll -->
+  <div class="progress-bar" id="progress-bar"></div>
+
+  <!-- =============================== -->
+  <!-- HEADER -->
+  <!-- =============================== -->
+  <header class="header" id="header">
+    <div class="container header__container">
+      <a href="#accueil" class="logo">
+        <i class="fa-solid fa-futbol logo__icon"></i>
+        <span>Téranga <strong>Athletic</strong></span>
+      </a>
+
+      <!-- Menu de navigation -->
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#accueil" class="nav__link active">Accueil</a></li>
+          <li><a href="#apropos" class="nav__link">À propos</a></li>
+          <li><a href="#produits" class="nav__link">Produits</a></li>
+          <li><a href="#collections" class="nav__link">Collections</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Bouton menu hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =============================== -->
+  <!-- HERO SECTION -->
+  <!-- =============================== -->
+  <section class="hero" id="accueil">
+    <div class="hero__bg" id="hero-bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__container">
+      <div class="hero__content" data-animate="fade-up">
+        <p class="hero__tagline">Équipementier sportif sénégalais</p>
+        <h1 class="hero__title" id="hero-title">Performez avec style, jouez avec fierté</h1>
+        <p class="hero__text">
+          Téranga Athletic conçoit des ensembles, pantalons, chemises et crampons
+          pensés pour les athlètes et les clubs qui ne font aucun compromis
+          sur la qualité et la performance.
+        </p>
+        <div class="hero__buttons">
+          <a href="#produits" class="btn btn--primary">Voir les produits</a>
+          <a href="#contact" class="btn btn--outline">Nous contacter</a>
+        </div>
+      </div>
+    </div>
+    <a href="#apropos" class="scroll-down" aria-label="Défiler vers le bas">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- =============================== -->
+  <!-- À PROPOS -->
+  <!-- =============================== -->
+  <section class="about" id="apropos">
+    <div class="container about__container">
+      <div class="about__image" data-animate="fade-right">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80" alt="Équipe sportive portant des tenues Téranga Athletic">
+      </div>
+
+      <div class="about__content" data-animate="fade-left">
+        <p class="section__tagline">À propos de nous</p>
+        <h2 class="section__title">L'équipement sportif pensé pour la performance</h2>
+        <p class="about__text">
+          Téranga Athletic est né de la volonté d'offrir aux sportifs sénégalais et
+          africains un équipement à la hauteur de leur talent. Nos ensembles, pantalons,
+          chemises et crampons sont conçus pour résister à l'intensité des entraînements
+          comme des compétitions.
+        </p>
+        <p class="about__text">
+          Nous travaillons avec des clubs, des écoles de football et des particuliers
+          pour proposer des tenues personnalisées, confortables et durables.
+        </p>
+
+        <!-- Statistiques -->
+        <div class="stats">
+          <div class="stats__item">
+            <span class="stats__number" data-target="150">0</span>
+            <span class="stats__plus">+</span>
+            <p>Clients satisfaits</p>
+          </div>
+          <div class="stats__item">
+            <span class="stats__number" data-target="12">0</span>
+            <p>Clubs équipés</p>
+          </div>
+          <div class="stats__item">
+            <span class="stats__number" data-target="98">0</span>
+            <span class="stats__plus">%</span>
+            <p>Taux de satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================== -->
+  <!-- PRODUITS -->
+  <!-- =============================== -->
+  <section class="services" id="produits">
+    <div class="container">
+      <div class="section__header" data-animate="fade-up">
+        <p class="section__tagline">Notre catalogue</p>
+        <h2 class="section__title">Des équipements pour chaque sportif</h2>
+      </div>
+
+      <div class="services__grid">
+
+        <article class="service-card" data-animate="fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-shirt"></i></div>
+          <h3>Ensembles</h3>
+          <p>Ensembles training complets, respirants et confortables, pour l'entraînement comme la compétition.</p>
+          <a href="#contact" class="service-card__btn">Commander <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card" data-animate="fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-person-walking"></i></div>
+          <h3>Pantalons</h3>
+          <p>Pantalons de sport techniques, coupe ajustée, tissu extensible pour une liberté de mouvement totale.</p>
+          <a href="#contact" class="service-card__btn">Commander <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card" data-animate="fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-vest"></i></div>
+          <h3>Chemises &amp; maillots</h3>
+          <p>Maillots légers et durables, personnalisables aux couleurs de votre club ou de votre équipe.</p>
+          <a href="#contact" class="service-card__btn">Commander <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card" data-animate="fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-shoe-prints"></i></div>
+          <h3>Crampons</h3>
+          <p>Chaussures à crampons adaptées à tous les terrains, pensées pour le grip et la stabilité.</p>
+          <a href="#contact" class="service-card__btn">Commander <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card" data-animate="fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-socks"></i></div>
+          <h3>Accessoires</h3>
+          <p>Chaussettes, protège-tibias, sacs de sport : tout l'équipement complémentaire du sportif.</p>
+          <a href="#contact" class="service-card__btn">Commander <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card" data-animate="fade-up">
+          <div class="service-card__icon"><i class="fa-solid fa-people-group"></i></div>
+          <h3>Tenues sur mesure</h3>
+          <p>Personnalisation des tenues aux couleurs et logos de votre club, école ou entreprise.</p>
+          <a href="#contact" class="service-card__btn">Commander <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================== -->
+  <!-- COLLECTIONS (Portfolio produits) -->
+  <!-- =============================== -->
+  <section class="portfolio" id="collections">
+    <div class="container">
+      <div class="section__header" data-animate="fade-up">
+        <p class="section__tagline">Nos collections</p>
+        <h2 class="section__title">Un aperçu de nos produits</h2>
+      </div>
+
+      <div class="portfolio__grid">
+        <figure class="portfolio__item" data-animate="fade-up">
+          <div class="portfolio__img-wrap">
+            <img src="images/produit-1.png" alt="Ensemble de sport Téranga Athletic">
+          </div>
+          <figcaption>Ensemble training</figcaption>
+          <p class="portfolio__price">25 000 FCFA</p>
+          <a class="btn btn--order" data-product="Ensemble training" data-price="25 000 FCFA"
+             href="https://wa.me/221784941401?text=Bonjour%20T%C3%A9ranga%20Athletic%2C%20je%20souhaite%20commander%20%3A%20Ensemble%20training%20-%2025%20000%20FCFA"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Commander
+          </a>
+        </figure>
+
+        <figure class="portfolio__item" data-animate="fade-up">
+          <div class="portfolio__img-wrap">
+            <img src="images/produit-2.png" alt="Pantalon de sport Téranga Athletic">
+          </div>
+          <figcaption>Pantalon technique</figcaption>
+          <p class="portfolio__price">12 000 FCFA</p>
+          <a class="btn btn--order" data-product="Pantalon technique" data-price="12 000 FCFA"
+             href="https://wa.me/221784941401?text=Bonjour%20T%C3%A9ranga%20Athletic%2C%20je%20souhaite%20commander%20%3A%20Pantalon%20technique%20-%2012%20000%20FCFA"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Commander
+          </a>
+        </figure>
+
+        <figure class="portfolio__item" data-animate="fade-up">
+          <div class="portfolio__img-wrap">
+            <img src="images/produit-3.png" alt="Maillot de sport Téranga Athletic">
+          </div>
+          <figcaption>Maillot de match</figcaption>
+          <p class="portfolio__price">15 000 FCFA</p>
+          <a class="btn btn--order" data-product="Maillot de match" data-price="15 000 FCFA"
+             href="https://wa.me/221784941401?text=Bonjour%20T%C3%A9ranga%20Athletic%2C%20je%20souhaite%20commander%20%3A%20Maillot%20de%20match%20-%2015%20000%20FCFA"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Commander
+          </a>
+        </figure>
+
+        <figure class="portfolio__item" data-animate="fade-up">
+          <div class="portfolio__img-wrap">
+            <img src="images/produit-4.png" alt="Crampons de football Téranga Athletic">
+          </div>
+          <figcaption>Crampons performance</figcaption>
+          <p class="portfolio__price">30 000 FCFA</p>
+          <a class="btn btn--order" data-product="Crampons performance" data-price="30 000 FCFA"
+             href="https://wa.me/221784941401?text=Bonjour%20T%C3%A9ranga%20Athletic%2C%20je%20souhaite%20commander%20%3A%20Crampons%20performance%20-%2030%20000%20FCFA"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Commander
+          </a>
+        </figure>
+
+        <figure class="portfolio__item" data-animate="fade-up">
+          <div class="portfolio__img-wrap">
+            <img src="images/produit-5.png" alt="Polo dégradé Téranga Athletic">
+          </div>
+          <figcaption>Polo dégradé</figcaption>
+          <p class="portfolio__price">18 000 FCFA</p>
+          <a class="btn btn--order" data-product="Polo dégradé" data-price="18 000 FCFA"
+             href="https://wa.me/221784941401?text=Bonjour%20T%C3%A9ranga%20Athletic%2C%20je%20souhaite%20commander%20%3A%20Polo%20d%C3%A9grad%C3%A9%20-%2018%20000%20FCFA"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Commander
+          </a>
+        </figure>
+
+        <figure class="portfolio__item" data-animate="fade-up">
+          <div class="portfolio__img-wrap">
+            <img src="images/produit-6.png" alt="Polo édition dorée Téranga Athletic">
+          </div>
+          <figcaption>Polo édition dorée</figcaption>
+          <p class="portfolio__price">20 000 FCFA</p>
+          <a class="btn btn--order" data-product="Polo édition dorée" data-price="20 000 FCFA"
+             href="https://wa.me/221784941401?text=Bonjour%20T%C3%A9ranga%20Athletic%2C%20je%20souhaite%20commander%20%3A%20Polo%20%C3%A9dition%20dor%C3%A9e%20-%2020%20000%20FCFA"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Commander
+          </a>
+        </figure>
+
+        <figure class="portfolio__item" data-animate="fade-up">
+          <div class="portfolio__img-wrap">
+            <img src="images/produit-7.png" alt="Ensemble urbain Téranga Athletic">
+          </div>
+          <figcaption>Ensemble urbain</figcaption>
+          <p class="portfolio__price">28 000 FCFA</p>
+          <a class="btn btn--order" data-product="Ensemble urbain" data-price="28 000 FCFA"
+             href="https://wa.me/221784941401?text=Bonjour%20T%C3%A9ranga%20Athletic%2C%20je%20souhaite%20commander%20%3A%20Ensemble%20urbain%20-%2028%20000%20FCFA"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Commander
+          </a>
+        </figure>
+
+        <figure class="portfolio__item" data-animate="fade-up">
+          <div class="portfolio__img-wrap">
+            <img src="images/produit-8.png" alt="Polo veste bicolore Téranga Athletic">
+          </div>
+          <figcaption>Polo veste bicolore</figcaption>
+          <p class="portfolio__price">22 000 FCFA</p>
+          <a class="btn btn--order" data-product="Polo veste bicolore" data-price="22 000 FCFA"
+             href="https://wa.me/221784941401?text=Bonjour%20T%C3%A9ranga%20Athletic%2C%20je%20souhaite%20commander%20%3A%20Polo%20veste%20bicolore%20-%2022%20000%20FCFA"
+             target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> Commander
+          </a>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Confirmation de commande (toast) -->
+  <div class="order-toast" id="order-toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="order-toast-text">Commande envoyée !</span>
+  </div>
+
+  <!-- =============================== -->
+  <!-- CONTACT -->
+  <!-- =============================== -->
+  <section class="contact" id="contact">
+    <div class="container contact__container">
+      <div class="section__header" data-animate="fade-up">
+        <p class="section__tagline">Contact</p>
+        <h2 class="section__title">Passez votre commande</h2>
+        <p class="contact__intro">
+          Une question, une commande, un projet pour votre club ? Remplissez le
+          formulaire ci-dessous, nous vous répondrons rapidement.
+        </p>
+      </div>
+
+      <div class="contact__wrapper">
+        <!-- Formulaire de contact -->
+        <form id="contact-form" class="contact-form" novalidate data-animate="fade-right">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom">
+            <span class="error-message" id="error-name"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Adresse email</label>
+            <input type="email" id="email" name="email" placeholder="vous@exemple.com">
+            <span class="error-message" id="error-email"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Décrivez votre commande ou votre demande..."></textarea>
+            <span class="error-message" id="error-message-field"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary">Envoyer le message</button>
+
+          <p class="form-success" id="form-success">
+            <i class="fa-solid fa-circle-check"></i> Votre message a bien été envoyé. Merci !
+          </p>
+        </form>
+
+        <!-- Infos de contact -->
+        <div class="contact-info" data-animate="fade-left">
+          <div class="contact-info__item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Adresse</h4>
+              <p>Boutique Téranga Athletic, Thiès, Sénégal</p>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Téléphone</h4>
+              <p>+221 78 494 14 01</p>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>djibrilkah234@gmail.com</p>
+            </div>
+          </div>
+
+          <a
+            href="https://wa.me/221784941401?text=Bonjour%20Téranga%20Athletic%2C%20je%20souhaite%20passer%20une%20commande."
+            class="btn btn--whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-whatsapp"></i> Commander via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================== -->
+  <!-- FOOTER -->
+  <!-- =============================== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#accueil" class="logo logo--light">
+          <i class="fa-solid fa-futbol logo__icon"></i>
+          <span>Téranga <strong>Athletic</strong></span>
+        </a>
+        <p>Équipementier sportif sénégalais depuis 2020.</p>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Coordonnées</h4>
+        <p><i class="fa-solid fa-location-dot"></i> Boutique Téranga Athletic, Thiès, Sénégal</p>
+        <p><i class="fa-solid fa-phone"></i> +221 78 494 14 01</p>
+        <p><i class="fa-solid fa-envelope"></i> djibrilkah234@gmail.com</p>
+      </div>
+
+      <div class="footer__social">
+        <h4>Suivez-nous</h4>
+        <div class="footer__social-icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> Téranga Athletic — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Bouton flottant WhatsApp -->
+  <a
+    href="https://wa.me/221784941401?text=Bonjour%20Téranga%20Athletic%2C%20je%20souhaite%20passer%20une%20commande."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contacter sur WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Bouton retour en haut -->
+  <button id="back-to-top" class="back-to-top" aria-label="Retour en haut">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Script JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
